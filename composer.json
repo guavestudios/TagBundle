@@ -1,6 +1,6 @@
 {
-	"name": "guave/contaoskeleton-bundle",
-	"description": "Skeleton for custom Contao 4 bundles",
+	"name": "guave/tag-bundle",
+	"description": "Tag Module for Content Elements in Contao 4.13+",
 	"type": "contao-bundle",
 	"license": "ISC",
 	"authors": [
@@ -23,7 +23,7 @@
 	},
 	"autoload": {
 		"psr-4": {
-			"Guave\\ContaoSkeletonBundle\\": "src/"
+			"Guave\\TagBundle\\": "src/"
 		},
 		"classmap": [
 			"contao/"
@@ -43,10 +43,10 @@
 		}
 	},
 	"extra": {
-		"contao-manager-plugin": "Guave\\ContaoSkeletonBundle\\ContaoManager\\Plugin"
+		"contao-manager-plugin": "Guave\\TagBundle\\ContaoManager\\Plugin"
 	},
 	"support": {
-		"issues": "https://github.com/guavestudios/contaoskeleton-bundle/issues",
-		"source": "https://github.com/guavestudios/contaoskeleton-bundle"
+		"issues": "https://github.com/guavestudios/TagBundle/issues",
+		"source": "https://github.com/guavestudios/TagBundle"
 	}
 }

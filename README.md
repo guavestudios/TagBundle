@@ -1,6 +1,6 @@
-# Contao Skeleton Bundle
+# Tag Bundle
 
-This contao module is a template for building our own.
+This Contao module gives you a Tags content element for other modules to use
 
 ## Requirements
 
@@ -9,16 +9,14 @@ This contao module is a template for building our own.
 
 ## Install
 
-!!! example installation !!!
-
 ```BASH
-$ composer require guave/contaoskeleton-bundle
+$ composer require guave/tag-bundle
 ```
 
 ## Usage
 
-Add some small sample text of how it's meant to be activated and used, e.g. in `contao/config/config.php`
+Tell the Tags Bundle which modules to add it to in your `contao/config.php`
 
 ```PHP
-$GLOBALS['TL_SKELETON'] = true;
+$GLOBALS['TL_TAGS']['modules'] = ['tl_showcase', 'tl_team'];
 ```
