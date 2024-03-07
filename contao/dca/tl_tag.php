@@ -2,6 +2,7 @@
 
 use Contao\Backend;
 use Contao\DC_Table;
+
 \Contao\System::loadLanguageFile('default');
 
 $GLOBALS['TL_DCA'][tl_tag::class] = [
@@ -96,4 +97,6 @@ $GLOBALS['TL_DCA'][tl_tag::class] = [
     ],
 ];
 
-class tl_tag extends Backend {}
+class tl_tag extends Backend
+{
+}
