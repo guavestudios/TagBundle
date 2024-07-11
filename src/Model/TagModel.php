@@ -6,9 +6,6 @@ use Contao\Model;
 use Contao\Model\Collection;
 
 /**
- * Class TagModel
- * @package Guave\TagBundle\Model
- *
  * @property int $id
  * @property int $pid
  * @property int $sorting

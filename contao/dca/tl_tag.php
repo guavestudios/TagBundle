@@ -1,9 +1,11 @@
 <?php
 
 use Contao\Backend;
+use Contao\DataContainer;
 use Contao\DC_Table;
+use Contao\System;
 
-\Contao\System::loadLanguageFile('default');
+System::loadLanguageFile('default');
 
 $GLOBALS['TL_DCA'][tl_tag::class] = [
     'config' => [
