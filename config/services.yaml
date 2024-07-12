@@ -1,6 +1,7 @@
 services:
   _defaults:
     autoconfigure: true
+    autowire: true
 
   Guave\TagBundle\Controller\:
     resource: ../src/Controller
