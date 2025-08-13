@@ -3,6 +3,6 @@ services:
     autoconfigure: true
     autowire: true
 
-  Guave\TagBundle\Controller\:
-    resource: ../src/Controller
-    public: true
+  Guave\TagBundle\:
+    resource: ../src
+    exclude: ../src/{ContaoManager,DependencyInjection}
