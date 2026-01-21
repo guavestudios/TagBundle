@@ -4,8 +4,8 @@ This Contao module gives you a Tags content element for other modules to use
 
 ## Requirements
 
-- Contao 4.13+
-- PHP 7.4 or 8.0+
+- Contao 5.0+
+- PHP 8.1+
 
 ## Install
 
